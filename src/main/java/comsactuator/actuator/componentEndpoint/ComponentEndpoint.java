@@ -11,7 +11,7 @@ import org.springframework.boot.actuate.endpoint.annotation.WriteOperation;
 import org.springframework.stereotype.Component;
 
 @Component
-@Endpoint(id = "estados")
+@Endpoint(id = "estado")
 public class ComponentEndpoint {
 	private List<String> listado = new ArrayList<>();
 	
